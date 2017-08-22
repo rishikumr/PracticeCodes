@@ -1,21 +1,28 @@
 import java.util.*;
 import java.io.*;
 
- class Insu extends Exception {
- public   void  Insu() {
-    
-   }
+
+// User Created Exceptions
+
+     class Insu extends Exception {
+     public   void  Insu() {
+
+       }
      
-    public String getMessage(){
-         String str = "n and p should be non-negative";
-        return str;
-     }
+      public String getMessage(){
+           String str = "n and p should be non-negative";
+          return str;
+       }
 }
+
+
+// Class name Calculator which takes input a and b AND gives the output a^b.
 
  class Calculator {
  
   int an=1;
-   
+  // method which throws Exception "Insu" if any input number is negative.
+  
    public int power(int a, int b) throws Insu {
       
         
@@ -38,7 +45,7 @@ import java.io.*;
 }
 
 
-
+// Main class which takes input from the user a and b. AND pass these number to Calculator method power.
 class Solution{
 
     public static void main(String[] args) {
