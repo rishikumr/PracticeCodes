@@ -1,0 +1,22 @@
+#include <iostream>
+#include <iomanip>
+#include <limits>
+
+using namespace std;
+
+int main() {
+    int i = 4;
+    double d = 4.0;
+    string s = "HackerRank ";
+	int j =  scan.nextInt();
+        double e = scan.nextDouble();
+    scan.nextLine();
+        String x = scan.nextLine();
+  
+
+    System.out.println(i+j);
+    System.out.println(d+e);
+    System.out.println(s+x);
+	
+	  return 0;
+}
