@@ -1,2 +1,2 @@
 # PracticeCodes
-#This project contains various codes which i have learn since  now !
+#This project contains various codes which i have learnt so far !
