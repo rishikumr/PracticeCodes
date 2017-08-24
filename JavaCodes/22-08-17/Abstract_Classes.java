@@ -1,6 +1,6 @@
-Task: Given a Book class and a Solution class, write a MyBook Inherits from Book and Has a 3 parameterized constructor taking 3 parameters:
+// Task: Given a Book class and a Solution class, write a MyBook Inherits from Book and Has a 3 parameterized constructor taking 3 parameters:
 
-   import java.util.*;
+import java.util.*;
 
 abstract class Book {
     String title;
@@ -38,10 +38,11 @@ abstract class Book {
         
     }
 	
-	public class Solution {
+	public class Abstract_Classes {
    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+		 System.out.println("Enter Book Title , author and Price");
         String title = scanner.nextLine();
         String author = scanner.nextLine();
         int price = scanner.nextInt();

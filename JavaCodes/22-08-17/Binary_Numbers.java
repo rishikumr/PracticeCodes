@@ -1,5 +1,5 @@
-Task :
-Given a base-10 integer, , convert it to binary (base-2). Then find and print the base-10 integer denoting the maximum number of consecutive 's in 's binary representation.
+//Task :
+//Given a base-10 integer, , convert it to binary (base-2). Then find and print the base-10 integer denoting the maximum number of consecutive 's in 's binary representation.
 
 
 import java.io.*;
@@ -8,10 +8,11 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class Solution {
+public class Binary_Numbers {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+		System.out.println("Input a number of base 10");
         int n = in.nextInt();
         
         int r[]= new int[30];
@@ -44,7 +45,7 @@ public class Solution {
                 count=1;
             }
         }
-        
-         System.out.println(max);
+        System.out.println("Maximum number of continous 1 in binary format of given number is : ");
+         System.out.print(max);
     }
 }

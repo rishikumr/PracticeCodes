@@ -1,10 +1,11 @@
 import java.util.*;
 import java.math.*;
 
-public class Arithmetic {
+public class Operators {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+		System.out.println("Enter original meal cost, tip percentage and tax percentage");
         double mealCost = scan.nextDouble(); // original meal price
         int tipPercent = scan.nextInt(); // tip percentage
         int taxPercent = scan.nextInt(); // tax percentage

@@ -1,16 +1,16 @@
-Task 
-You are given two classes, Person and Student, where Person is the base class and Student is the derived class. Completed code for Person and a declaration for Student are provided for you in the editor. Observe that Student inherits all the properties of Person.
+//Task 
+//You are given two classes, Person and Student, where Person is the base class and Student is the derived class. Completed code for Person and a declaration for Student are provided for you in the editor. Observe that Student inherits all the properties of Person.
 
-A Student class constructor, which has  parameters:
-A string, .
-A string, .
-An integer, .
-An integer array (or vector) of test scores, .
-A char calculate() method that calculates a Student object's average and returns the grade character representative of their calculated average
+//A Student class constructor, which has  parameters:
+//A string, .
+//A string, .
+//An integer, .
+//An integer array (or vector) of test scores, .
+//A char calculate() method that calculates a Student object's average and returns the grade character representative of their calculated average
 
 
 
-Ans: 
+//Ans: 
 
 
 import java.util.*;
@@ -103,15 +103,20 @@ class Student extends Person{
 }
 
 
-class Solution {
+class Inheritance {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
+		 System.out.println("Input First Name");
 		String firstName = scan.next();
+		System.out.println("Input Last Name");
 		String lastName = scan.next();
+		System.out.println("Input ID ");
 		int id = scan.nextInt();
+		System.out.println("Total number of test taken by this person ");
 		int numScores = scan.nextInt();
 		int[] testScores = new int[numScores];
 		for(int i = 0; i < numScores; i++){
+		System.out.println("Input Test marks out of 100 each time ");
 			testScores[i] = scan.nextInt();
 		}
 		scan.close();

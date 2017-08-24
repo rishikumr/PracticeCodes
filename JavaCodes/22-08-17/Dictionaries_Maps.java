@@ -1,21 +1,20 @@
-Tasks: Given an array, , of  integers, print array's elements in reverse order as a single line of space-separated numbers.
-
-
+//Task: use the concept of dictionaries and Maps in java
 
 import java.io.*;
 import java.util.*;
 
 
-public class Solution {
+public class Dictionaries_Maps {
 
     public static void main(String[] args) {
        Scanner scan = new Scanner(System.in);
-        
+        System.out.println("Input Dictionary size");
         int size = scan.nextInt();
         
         int array[] = new int[size];
         
         for(int k=0;k<size;k++){
+		 System.out.println("Input Dictionary Element "+(k+1));
             array[k]= scan.nextInt();
         }
         for(int k=0;k<size;k++){
@@ -32,3 +31,4 @@ public class Solution {
     }
     }
 }
+

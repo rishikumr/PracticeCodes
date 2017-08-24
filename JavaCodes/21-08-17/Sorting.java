@@ -4,13 +4,15 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class Solution {
+public class Sorting {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+		 System.out.println("eNTER ARRAY SIZE WHICH YOU WANT TO SHORT");
         int n = in.nextInt();
         int[] a = new int[n];
         for(int a_i=0; a_i < n; a_i++){
+			 System.out.println("Enter array Element "+(a_i+1));
             a[a_i] = in.nextInt();
         }
        long swap=0;
